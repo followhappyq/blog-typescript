@@ -9,6 +9,9 @@ const LongPostList = (props: Props) => {
   return (
     <div className="long-post">
       <LongPost />
+      <LongPost />
+      <LongPost />
+      <LongPost />
     </div>
   )
 }

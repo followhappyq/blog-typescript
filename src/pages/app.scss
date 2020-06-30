@@ -1,4 +1,5 @@
 .wrapper-content {
   display: flex;
   justify-content: center;
+  background-color: lighten($color: #262626, $amount: 2);
 }
