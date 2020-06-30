@@ -53,7 +53,7 @@ const LongPost = (props: Props) => {
         <div className="post__description">
           <div className="post__count">0 comments</div>
           <div className="post__continue">
-            <Link to="/" className="post__link">
+            <Link to="/post" className="post__link">
               Continue...
             </Link>
           </div>

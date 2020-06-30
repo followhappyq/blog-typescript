@@ -53,6 +53,11 @@ const Header: React.FC<HeaderProps> = ({ onMailClick }) => {
                 ABOUT
               </Link>
             </li>
+            <li className="header__list-item">
+              <Link to="/profile" className="header__link">
+                PROFILE
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

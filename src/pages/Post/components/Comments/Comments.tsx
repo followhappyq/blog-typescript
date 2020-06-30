@@ -22,6 +22,9 @@ const Comments = (props: Props) => {
           Comments
         </Header>
         <BaseComment imageUrl={user.imageUrl} author={user.author} time={user.time} text={user.text} />
+        <BaseComment imageUrl={user.imageUrl} author={user.author} time={user.time} text={user.text} />
+        <BaseComment imageUrl={user.imageUrl} author={user.author} time={user.time} text={user.text} />
+        <BaseComment imageUrl={user.imageUrl} author={user.author} time={user.time} text={user.text} />
 
         <Form reply>
           <Form.TextArea />
