@@ -1,6 +1,6 @@
 import React from "react"
 
-import { LongPost } from "../"
+import { LongPost } from "../../../../components"
 import "./longPostList.scss"
 
 interface Props {}

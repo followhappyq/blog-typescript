@@ -11,7 +11,7 @@ const LongPost = (props: Props) => {
   return (
     <div className="post">
       <div className="post__title">
-        <Link to="/" className="post__link">
+        <Link to="/post" className="post__link">
           Hire me
         </Link>
       </div>

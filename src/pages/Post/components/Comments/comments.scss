@@ -1,0 +1,22 @@
+.comments {
+  &-container {
+    margin-top: 30px;
+  }
+
+  &__header,
+  &__text {
+    color: #9c9fa3 !important;
+  }
+  &__time {
+    color: #aaa5a5 !important;
+  }
+  &__actions {
+    color: #9c9fa3 !important;
+    &:hover {
+      color: #f5f5f5 !important;
+    }
+  }
+  &__author {
+    color: #c7a770 !important;
+  }
+}
