@@ -29,6 +29,14 @@ const Header: React.FC<HeaderProps> = ({ onMailClick }) => {
             <Icon name="instagram" className="header__social" />
           </a>
         </div>
+        <div className="header__right">
+          <Link to="/signin" className="header__link">
+            Sign In
+          </Link>
+          <Link to="/signup" className="header__link">
+            Sign Up
+          </Link>
+        </div>
       </div>
       <div className="header__logo">
         <div className="header__logo-center">

@@ -89,4 +89,14 @@
       color: #c7a770;
     }
   }
+  &__right {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+    right: 10px;
+    a {
+      margin-right: 15px;
+    }
+  }
 }
