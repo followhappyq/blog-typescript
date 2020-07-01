@@ -5,7 +5,7 @@ import "./signin.scss"
 
 interface Props {}
 
-const SignIn = (props: Props) => {
+const SignIn: React.FC = (props: Props) => {
   return (
     <div className="signin">
       <SignInForm />

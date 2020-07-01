@@ -3,7 +3,7 @@ import { Switch, Route } from "react-router-dom"
 import { Container } from "semantic-ui-react"
 
 import { Header } from "../containers/"
-import { Home, Post, Profile, SignIn } from "./"
+import { Home, Post, Profile, SignIn, SignUp } from "./"
 import "./app.scss"
 
 const App: React.FC = () => {
@@ -17,6 +17,7 @@ const App: React.FC = () => {
             <Route exact path={["/post"]} component={Post} />
             <Route exact path={["/profile"]} component={Profile} />
             <Route exact path={["/signin"]} component={SignIn} />
+            <Route exact path={["/signup"]} component={SignUp} />
           </Switch>
         </Container>
       </div>
